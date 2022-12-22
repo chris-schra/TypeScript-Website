@@ -1,0 +1,57 @@
+{
+  "type": "object",
+  "properties": {
+    "User": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "firstName": {
+          "type": "string"
+        },
+        "lastName": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "dateOfBirth": {
+          "type": "string"
+        },
+        "emailVerified": {
+          "type": "boolean"
+        },
+        "signUpDate": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "x-examples": {
+    "Example 1": {
+      "User": {
+        "id": 142,
+        "firstName": "Alice",
+        "lastName": "Smith",
+        "email": "alice.smith@gmail.com",
+        "dateOfBirth": "1997-10-31",
+        "emailVerified": true,
+        "signUpDate": "2019-08-24"
+      }
+    }
+  },
+  "examples": [
+    {
+      "User": {
+        "id": 142,
+        "firstName": "Alice",
+        "lastName": "Smith",
+        "email": "alice.smith@gmail.com",
+        "dateOfBirth": "1997-10-31",
+        "emailVerified": true,
+        "signUpDate": "2019-08-24"
+      }
+    }
+  ]
+}
